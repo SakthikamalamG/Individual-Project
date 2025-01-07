@@ -1,0 +1,104 @@
+<head>
+    <title>Study Planner</title>
+    <style>
+      body {
+        background-image: url(https://static.vecteezy.com/system/resources/previews/002/375/687/non_2x/school-stationary-background-free-vector.jpg);
+        font-family: Arial, sans-serif;
+        background-color:#8EB486 ;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #;
+              border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+  
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+  
+      label {
+        font-size: 16px;
+        color: #555;
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      input, select, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+  
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+      }
+  
+      button:hover {
+        background-color:#8EB483;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Study Planner Setup</h1>
+      <form>
+        <label for="reading-time">Preferred Reading Time (in hours):</label>
+        <input type="number" id="reading-time" min="1" max="12" required>
+  
+        <label for="schedule">Are you a school or college student?</label>
+        <select id="schedule">
+          <option>       </option>
+          <option>School</option>
+          <option>College</option>
+        </select>
+  
+        <label>Are you a morning or night person?</label>
+        <select id="daytime-preference">
+          <option>        </option>
+          <option>Morning</option>
+          <option>Night</option>
+        </select>
+  
+        <label for="subjects">Subjects you want to study:</label>
+        <textarea id="subjects" rows="3" required></textarea>
+  
+        <label for="interests">What do you like to do in your free time?</label>
+        <textarea id="interests" rows="3"></textarea>
+  
+        <!-- Additional Questions -->
+        <label for="study-goals">What are your study goals?</label>
+        <textarea id="study-goals" rows="3"></textarea>
+  
+        <label for="preferred-method">Preferred study method (e.g., visual, auditory, hands-on):</label>
+        <input type="text" id="preferred-method">
+  
+        <label for="break-time">How often do you prefer breaks during study?</label>
+        <input type="text" id="break-time">
+  
+        <label for="distractions">What distracts you the most while studying?</label>
+        <input type="text" id="distractions">
+  
+        <label for="productivity-tools">Tools you use to boost productivity:</label>
+        <input type="text" id="productivity-tools">
+  
+        <button type="submit">Create My Plan</button>
+      </form>
+    </div>
+  </body>
+  

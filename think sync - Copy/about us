@@ -1,0 +1,126 @@
+<html>
+    <title>ABOUT US</title>
+<head>
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp8930510.jpg');
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .about-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .about-section h2 {
+            font-size: 36px;
+            color:white;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            line-height: 1.6;
+            color:white;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .team-member {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .team-member h3 {
+            margin-top: 10px;
+            font-size: 22px;
+            color: #333;
+        }
+
+        .team-member p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-text {
+            margin: 0;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Think Sync</h1>
+        <p>Your Personal Study Planner</p>
+    </header>
+
+    <div class="container">
+        <section class="about-section">
+            <h2>About Us</h2>
+            <p>At Think Sync, we believe in making study planning simple, efficient, and tailored to each individual's unique learning style. Our mission is to provide students with a platform that allows them to create personalized study schedules, track their progress, and stay motivated throughout their educational journey. Whether you're studying for exams or just organizing your daily tasks, Think Sync is here to help you succeed!</p>
+        </section>
+
+       
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkSynC Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f7f7f7;
+            background-image: url('https://wallpaperaccess.com/full/253342.jpg');
+      
+
+            
+
+        }
+        h1 {
+            margin: 20px 0;
+            color:white;
+        }
+        .library {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+            margin-bottom: 40px;
+        }
+        .subject {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .subject img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .subject h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #555;
+        }
+        .subject a {
+            display: block;
+            color: #007BFF;
+            text-decoration: none;
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .subject a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>ThinkSync Library</h1>
+    <div class="library">
+        <div class="subject">
+            <img src="https://wallpapercave.com/wp/wp11545029.jpg" alt="Mathematics">
+            <h3>Mathematics</h3>
+            <a href="https://www.pdfdrive.com/algebra-mastery-d34674392.html" target="_blank">Book 1: Algebra Mastery</a>
+            <a href="https://www.pdfdrive.com/calculus-essentials-d23803072.html" target="_blank">Book 2: Calculus Essentials</a>
+            <a href="https://www.pdfdrive.com/geometry-wonders-d15684399.html" target="_blank">Book 3: Geometry Wonders</a>
+        </div>
+        <div class="subject">
+            <img src="https://i.pinimg.com/736x/13/c7/04/13c7041c16ae4c7d8cb680d7a1ffd341.jpg" alt="English">
+            <h3>English</h3>
+            <a href="https://www.pdfdrive.com/english-grammar-guide-pdf-d33812149.html" target="_blank">Book 1: Grammar Guide</a>
+            <a href="https://www.gutenberg.org/ebooks/11" target="_blank">Book 2: Literature Classics (Frankenstein by Mary Shelley)</a>
+            <a href="https://www.pdfdrive.com/vocabulary-vault-pdf-d17738478.html" target="_blank">Book 3: Vocabulary Vault</a>
+        </div>
+        <div class="subject">
+            <img src="https://thumbs.dreamstime.com/b/physics-icons-sign-symbols-seamless-pattern-background-your-design-vector-illustration-213533842.jpg" alt="Physics">
+            <h3>Physics</h3>
+            <a href="https://www.pdfdrive.com/mechanics-basics-pdf-d41319372.html" target="_blank">Book 1: Mechanics Basics</a>
+            <a href="https://www.pdfdrive.com/quantum-reality-pdf-d34720257.html" target="_blank">Book 2: Quantum Reality</a>
+            <a href="https://www.pdfdrive.com/optics-simplified-pdf-d12058453.html" target="_blank">Book 3: Optics Simplified</a>
+        </div>
+        <div class="subject">
+            <img src="https://as2.ftcdn.net/v2/jpg/02/04/95/33/1000_F_204953388_yZEEO8IUjZNfw0rZSrI2Ej7BybS7QhlE.jpg" alt="Chemistry">
+            <h3>Chemistry</h3>
+            <a href="https://www.pdfdrive.com/organic-chemistry-pdf-d24459078.html" target="_blank">Book 1: Organic Chemistry</a>
+            <a href="https://www.pdfdrive.com/periodic-table-secrets-pdf-d25459853.html" target="_blank">Book 2: Periodic Table Secrets</a>
+            <a href="https://www.pdfdrive.com/reaction-mechanisms-pdf-d31922919.html" target="_blank">Book 3: Reaction Mechanisms</a>
+        </div>
+        <div class="subject">
+            <img src="https://i.pinimg.com/736x/c6/19/6a/c6196a3a9d1225da458de087b18eaeb9.jpg" alt="Biology">
+            <h3>Biology</h3>
+            <a href="https://www.pdfdrive.com/human-anatomy-pdf-d41082652.html" target="_blank">Book 1: Human Anatomy</a>
+            <a href="https://www.pdfdrive.com/botany-basics-pdf-d21595791.html" target="_blank">Book 2: Botany Basics</a>
+            <a href="https://www.pdfdrive.com/genetics-fundamentals-pdf-d34702203.html" target="_blank">Book 3: Genetics Fundamentals</a>
+        </div>
+        <div class="subject">
+            <img src="https://i.pinimg.com/originals/05/6a/30/056a308745af6de1b5f8b2161bda2774.jpg" alt="History">
+            <h3>History</h3>
+            <a href="https://www.pdfdrive.com/ancient-civilizations-pdf-d30217507.html" target="_blank">Book 1: Ancient Civilizations</a>
+            <a href="https://www.pdfdrive.com/world-wars-explained-pdf-d32845204.html" target="_blank">Book 2: World Wars Explained</a>
+            <a href="https://www.pdfdrive.com/historical-timelines-pdf-d37465271.html" target="_blank">Book 3: Historical Timelines</a>
+        </div>
+        <div class="subject">
+            <img src="https://as2.ftcdn.net/v2/jpg/02/50/14/47/1000_F_250144722_JsRoshd5PYsxHYQsUNsqjgUC7IYMc7Sm.jpg" alt="Geography">
+            <h3>Geography</h3>
+            <a href="https://www.pdfdrive.com/world-atlas-pdf-d11320981.html" target="_blank">Book 1: World Atlas</a>
+            <a href="https://www.pdfdrive.com/geology-basics-pdf-d10542457.html" target="_blank">Book 2: Geology Basics</a>
+            <a href="https://www.pdfdrive.com/climate-change-pdf-d11870722.html" target="_blank">Book 3: Climate Change</a>
+        </div>
+        <div class="subject">
+            <img src="https://ih1.redbubble.net/image.903525142.3268/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg" alt="Computer Science">
+            <h3>Computer Science</h3>
+            <a href="https://www.pdfdrive.com/programming-essentials-pdf-d23561329.html" target="_blank">Book 1: Programming Essentials</a>
+            <a href="https://www.pdfdrive.com/data-structures-pdf-d29784959.html" target="_blank">Book 2: Data Structures</a>
+            <a href="https://www.pdfdrive.com/ai-basics-pdf-d37736829.html" target="_blank">Book 3: AI Basics</a>
+        </div>
+        <div class="subject">
+            <img src="https://ih1.redbubble.net/image.903525142.3268/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg alt="Economics">
+            <h3>Economics</h3>
+            <a href="https://www.pdfdrive.com/microeconomics-pdf-d35827698.html" target="_blank">Book 1: Microeconomics</a>
+            <a href="https://www.pdfdrive.com/macroeconomics-pdf-d37165498.html" target="_blank">Book 2: Macroeconomics</a>
+            <a href="https://www.pdfdrive.com/financial-systems-pdf-d28273967.html" target="_blank">Book 3: Financial Systems</a>
+        </div>
+        <div class="subject">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/635/991/non_2x/vector-psychology-treatment-analysis-background-design.jpg" alt="Psychology">
+            <h3>Psychology</h3>
+            <a href="https://www.pdfdrive.com/behavioral-science-pdf-d39100494.html" target="_blank">Book 1: Behavioral Science</a>
+            <a href="https://www.pdfdrive.com/cognitive-studies-pdf-d37705388.html" target="_blank">Book 2: Cognitive Studies</a>
+            <a href="https://www.pdfdrive.com/emotional-intelligence-pdf-d34738083.html" target="_blank">Book 3: Emotional Intelligence</a>
+        </div>
+        <div class="subject">
+            <img src="https://as1.ftcdn.net/v2/jpg/06/41/23/98/1000_F_641239887_vpS4ScJFJpmskSTplE6JmNRNa5nzr8hG.jpg" alt="Philosophy">
+            <h3>Philosophy</h3>
+            <a href="https://www.gutenberg.org/ebooks/1497" target="_blank">Book 1: The Republic</a>
+            <a href="https://www.gutenberg.org/ebooks/2680" target="_blank">Book 2: Meditations</a>
+            <a href="https://www.gutenberg.org/ebooks/4280" target="_blank">Book 3: Critique of Pure Reason</a>
+        </div>
+        <div class="subject">
+            <img src="https://img.freepik.com/premium-photo/poster-abstract-doodles-square-art_911712-3488.jpg" alt="Art">
+            <h3>Art</h3>
+            <a href="https://www.pdfdrive.com/history-of-modern-art-pdf-d38980339.html" target="_blank">Book 1: History of Modern Art</a>
+            <a href="https://www.pdfdrive.com/the-story-of-art-pdf-d29284535.html" target="_blank">Book 2: The Story of Art</a>
+            <a href="https://www.pdfdrive.com/art-and-illusion-pdf-d34420292.html" target="_blank">Book 3: Art and Illusion</a>
+        </div>
+    </div>
+
+     
+    
+</body>
+</html>
